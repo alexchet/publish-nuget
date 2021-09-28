@@ -1,5 +1,5 @@
 name: Publish NuGet
-author: Rohith Reddy (@rohith)
+author: Rohith Reddy (@rohith) - Forked Alex Chetcuti (@alexchet)
 description: Build, Pack & Publish a NuGet package with dotnet core on project version change
 
 inputs:
