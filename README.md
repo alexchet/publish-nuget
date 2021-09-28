@@ -41,6 +41,9 @@ jobs:
           
           # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
           # VERSION_STATIC: 1.0.0
+          
+          # Build Number
+          # Build Number:  ${{ github.run_number }}
 
           # Flag to toggle git tagging, enabled by default
           # TAG_COMMIT: true
