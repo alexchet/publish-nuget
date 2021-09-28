@@ -19,6 +19,7 @@ inputs:
     BUILD_NUMBER:
         description: The Build Number
         required: false
+        default: ${{ github.run_number }}
     VERSION_STATIC:
         description: Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
         required: false
