@@ -134,7 +134,7 @@ class Action {
             if (!parsedVersion)
                 this._printErrorAndExit("unable to extract version info!")
 
-            this.version = parsedVersion[1] + this.buildNumber
+            this.version = parsedVersion[1] + "." + this.buildNumber
         }
 
         console.log(`Version: ${this.version}`)
