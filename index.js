@@ -10,7 +10,7 @@ class Action {
         this.packageName = process.env.INPUT_PACKAGE_NAME || process.env.PACKAGE_NAME
         this.versionFile = process.env.INPUT_VERSION_FILE_PATH || process.env.VERSION_FILE_PATH || this.projectFile
         this.versionRegex = new RegExp(process.env.INPUT_VERSION_REGEX || process.env.VERSION_REGEX, "m")
-        this.buildNumber = process.env.BUILD_NUMBER
+        this.buildNumber = process.env.INPUT_BUILD_NUMBER
         this.version = process.env.INPUT_VERSION_STATIC || process.env.VERSION_STATIC
         this.tagCommit = JSON.parse(process.env.INPUT_TAG_COMMIT || process.env.TAG_COMMIT)
         this.tagFormat = process.env.INPUT_TAG_FORMAT || process.env.TAG_FORMAT
