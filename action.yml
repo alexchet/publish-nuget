@@ -16,6 +16,9 @@ inputs:
         description: Regex pattern to extract version info in a capturing group
         required: false
         default: ^\s*<Version>(.*)<\/Version>\s*$
+    BUILD_NUMBER:
+        description: The Build Number
+        required: false
     VERSION_STATIC:
         description: Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
         required: false
